@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: service-genplanillafactoring
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/pract01expert?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+    username: root
+    password: "218614056"
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect    
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+logging:
+  level:
+    hibernate.SQL: debug
+server:
+  port: 8030
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+            defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
