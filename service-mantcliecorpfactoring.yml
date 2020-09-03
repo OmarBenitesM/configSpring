@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: service-mantcliecorpfactoring
-
 server:
   port: 8020
 
