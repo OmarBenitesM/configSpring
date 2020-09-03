@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: service-genplanillafactoring
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3307/pract01expert?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
