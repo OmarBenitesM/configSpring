@@ -13,7 +13,7 @@ logging:
   level:
     hibernate.SQL: debug
 server:
-  port: 8040
+  port: 8050
 
 eureka:
   client:
